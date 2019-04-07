@@ -1,1 +1,1 @@
-# $100 Coding Bootcamp Project #1: A Three-Page Website
+# Project #1: CDI Technologies Website
