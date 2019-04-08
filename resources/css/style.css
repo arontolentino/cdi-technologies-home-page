@@ -63,7 +63,7 @@ body {
 }
 
 section {
-    padding: 65px 0;
+    padding: 50px 0;
 }
 
 /* ----- HEADINGS ----- */
@@ -188,7 +188,7 @@ h2 {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 78%;
+    top: 75%;
     left: 27%;
     text-align: center;
 }
@@ -285,4 +285,30 @@ h2 {
     color: #474747;
     font-size: 18px;
     line-height: 30px;
+}
+
+/* ---------------------------------------------- */
+/* FEATURED PRODUCTS SECTION */
+/* ---------------------------------------------- */
+
+.section-featured-product .flex-container {
+    align-items: center;
+}
+
+.featured-product-text {
+    margin: 20px;
+}
+
+.featured-product-text h2 {
+    color: #0082ca;
+    margin-bottom: 20px;
+}
+
+.featured-product-text ul {
+    margin-bottom: 20px;
+}
+
+.featured-product-text li {
+    margin-left: 60px;
+    line-height: 1.6rem;
 }
