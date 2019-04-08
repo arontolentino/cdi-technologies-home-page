@@ -350,3 +350,42 @@ h2 {
 .section-trust-pilot .row {
     padding-top: 25px;
 }
+
+/* ---------------------------------------------- */
+/* FOOTER */
+/* ---------------------------------------------- */
+
+.footer {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-nav {
+    float: left;
+}
+
+.footer-nav li { 
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {   
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #e67e22;
+}
+
+.copyright {
+    float: right;
+    display: inline-block;
+}
