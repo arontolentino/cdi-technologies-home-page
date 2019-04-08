@@ -36,14 +36,26 @@ body {
     margin: 0 auto;
 }
 
-.full-row {
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue-divider {
     background-color: #0082ca;
     text-align: center;
     color: #fff;
     padding: 30px 0;
 }
 
-.flex-container {
+.red-divider {
+    background-color: #e74f3d;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.flex-row {
     max-width: 1140px;
     display: flex;
     justify-content: space-evenly;
@@ -51,11 +63,7 @@ body {
 }
 
 section {
-    padding: 80px 0;
-}
-
-.box {
-    padding: 1%;
+    padding: 65px 0;
 }
 
 /* ----- HEADINGS ----- */
@@ -203,7 +211,7 @@ h2 {
 
 .cdi-partners {
     background-color: #f8f8f8;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 
 .cdi-partners img {
@@ -241,3 +249,40 @@ h2 {
     line-height: 30px;
 }
 
+/* ---------------------------------------------- */
+/* VALUE SECTION */
+/* ---------------------------------------------- */
+
+.section-value {
+    background-color: #f8f8f8;
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.section-value .flex-container {
+    margin: 50px 0;
+}
+
+.section-value .flex-container div {
+    padding: 20px 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 20%
+}
+
+.section-value h3 {
+    color: #0082ca;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.section-value p {
+    color: #474747;
+    font-size: 18px;
+    line-height: 30px;
+}
