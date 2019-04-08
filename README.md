@@ -1,1 +1,1 @@
-# cdi-technologies-home-page
+# Project #1: CDI Technologies Website
