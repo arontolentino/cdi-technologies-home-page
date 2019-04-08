@@ -312,3 +312,29 @@ h2 {
     margin-left: 60px;
     line-height: 1.6rem;
 }
+
+/* ---------------------------------------------- */
+/* FEATURED PRODUCTS SECTION */
+/* ---------------------------------------------- */
+
+.section-case-study {
+    background-color: #f8f8f8;
+}
+
+.section-case-study .flex-container {
+    align-items: center;
+}
+
+.case-study-text {
+    margin-left: 60px;
+}
+
+.case-study-text h2 {
+    color: #0082ca;
+    margin-bottom: 20px;
+}
+
+.case-study-text p {
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+}
