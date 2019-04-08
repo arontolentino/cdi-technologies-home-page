@@ -36,6 +36,20 @@ body {
     margin: 0 auto;
 }
 
+.full-row {
+    background-color: #0082ca;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.flex-container {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
 section {
     padding: 80px 0;
 }
@@ -46,7 +60,39 @@ section {
 
 /* ----- HEADINGS ----- */
 
+h1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 2.6rem;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.cdi-red {
+    color: #e74f3d;
+}
+
+.cdi-orange {
+    color: #f09f54;
+}
+
+.cdi-green {
+    color: #6abf4b;
+}
+
 /* ----- ICONS ----- */
+
+.icon-large {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 /* ----- BUTTONS ----- */
 
@@ -57,6 +103,7 @@ section {
     text-decoration: none;
     border-radius: 7px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -107,6 +154,8 @@ section {
     text-decoration: none;
     font-size: 0.9rem;
     color: #303030;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -122,16 +171,73 @@ section {
 .section-hero {
     background-image: url(img/home-page-hero.jpg);
     background-size: contain;
-    background-position: bottom center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 65vh;
+    position: relative;
 }
 
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 80%;
-    left: 80%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    top: 78%;
+    left: 27%;
+    text-align: center;
 }
+
+.hero-text-box h1 span {
+    color: #0082ca;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #6ABF4B;
+            text-decoration-color: #6ABF4B;
+    text-underline-position: under;
+}
+
+/* ---------------------------------------------- */
+/* CONNECT DEPLOY INSPIRE SECTION */
+/* ---------------------------------------------- */
+
+.section-cdi .full-row span {
+    font-weight: 600;
+}
+
+.cdi-partners {
+    background-color: #f8f8f8;
+    padding: 25px 0;
+}
+
+.cdi-partners img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.partner-logo {
+    filter: brightness( 100% ) contrast( 0% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+
+.partner-logo:hover {
+    filter: none;
+    transition: all 0.4s;
+}
+
+.connect-deploy-inspire .flex-container div {
+    width: 33.33%;
+    margin: 20px 0;
+}
+
+.connect-deploy-inspire h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.connect-deploy-inspire p {
+    text-align: center;
+    color: #474747;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
