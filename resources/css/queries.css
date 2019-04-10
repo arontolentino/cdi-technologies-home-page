@@ -5,7 +5,7 @@
 
 @media only screen and (max-width: 1024px) {
     .hero-text-box {
-        left: 10%;
+        left: 40%;
     }
 }
 
@@ -26,7 +26,7 @@
     }
 
     .hero-text-box {
-        left: -11%;
+        left: 30%;
     }
 
     .section-value .flex-container {
@@ -70,9 +70,54 @@
     }
 }
 
-@media only screen and (max-width: 702px) {
+@media only screen and (max-width: 425px) {
+    html {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+    
     .section-hero {
         height: 50vh;
         background-position: bottom;
+        padding-top: 10px;
     }
+
+    .hero-text-box {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .cdi-partners img {
+        width: 60%;
+    }
+
+    .section-cdi .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .section-value .flex-container div,
+    .section-cdi .flex-container div {
+        width: 80%;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    .copyright {
+        margin: 0 auto;
+    }
+
 }

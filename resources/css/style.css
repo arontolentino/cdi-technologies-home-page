@@ -187,9 +187,8 @@ h2 {
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
-    top: 75%;
-    left: 27%;
+    top: 76%;
+    left: 45%;
     text-align: center;
 }
 
@@ -283,7 +282,7 @@ h2 {
 
 .section-value p {
     color: #474747;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 30px;
 }
 
@@ -306,6 +305,7 @@ h2 {
 
 .featured-product-text p {
     line-height: 1.6rem;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
@@ -332,6 +332,7 @@ h2 {
 
 .case-study-text p {
     line-height: 1.6rem;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
