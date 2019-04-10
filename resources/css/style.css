@@ -236,7 +236,7 @@ h2 {
 
 .connect-deploy-inspire h3 {
     text-align: center;
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 300;
     margin-bottom: 15px;
 }
@@ -244,7 +244,7 @@ h2 {
 .connect-deploy-inspire p {
     text-align: center;
     color: #474747;
-    font-size: 26px;
+    font-size: 1.3rem;
     font-weight: 300;
     line-height: 30px;
 }
@@ -268,12 +268,12 @@ h2 {
     padding: 20px 15px;
     border: 2px solid #fff;
     border-radius: 20px;
-    width: 20%
+    width: 20%;
 }
 
 .section-value h3 {
     color: #0082ca;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: none;
     line-height: 30px;
@@ -283,7 +283,7 @@ h2 {
 
 .section-value p {
     color: #474747;
-    font-size: 18px;
+    font-size: 0.9rem;
     line-height: 30px;
 }
 
@@ -304,17 +304,13 @@ h2 {
     margin-bottom: 20px;
 }
 
-.featured-product-text ul {
+.featured-product-text p {
+    line-height: 1.6rem;
     margin-bottom: 20px;
 }
 
-.featured-product-text li {
-    margin-left: 60px;
-    line-height: 1.6rem;
-}
-
 /* ---------------------------------------------- */
-/* FEATURED PRODUCTS SECTION */
+/* CASE STUDY SECTION */
 /* ---------------------------------------------- */
 
 .section-case-study {
@@ -359,6 +355,7 @@ h2 {
     background-color: #3a3a3a;
     color: #fff;
     padding: 40px 0;
+    font-size: 0.8rem;
 }
 
 .footer-nav {
@@ -373,7 +370,6 @@ h2 {
 .footer-nav li a:link,
 .footer-nav li a:visited {   
     text-decoration: none;
-    font-size: 0.9rem;
     color: #fff;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;

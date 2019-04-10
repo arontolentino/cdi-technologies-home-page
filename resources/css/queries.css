@@ -1,0 +1,78 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero-text-box {
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
+    .logo {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .hero-text-box {
+        left: -11%;
+    }
+
+    .section-value .flex-container {
+        flex-wrap: wrap;
+    }
+
+    .section-value .flex-container div {
+        width: 37%;
+    }
+
+    .section-value .flex-container div:nth-child(1),
+    .section-value .flex-container div:nth-child(2) {
+        margin-bottom: 40px;
+    }
+
+    .section-featured-product .flex-container {
+        flex-direction: column;
+    }
+
+    .featured-product-text {
+        text-align: center;
+    }
+
+    .featured-product-text li {
+        margin-left: 0;
+        display: block;
+    }
+
+    .section-case-study .flex-container {
+        flex-direction: column-reverse;
+    }
+
+    .case-study-text {
+        margin: 0 auto;
+        text-align: center;
+        width: 87%;
+    }
+
+    .case-study-text a {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 702px) {
+    .section-hero {
+        height: 50vh;
+        background-position: bottom;
+    }
+}
