@@ -8,7 +8,7 @@ No page builders this time! I'm going to use the HTML and vanilla CSS skills I g
 
 To see the live version of the project, click this link:
 
-[https://arontolentino.github.io/cditechnologies-home-page](https://arontolentino.github.io/cditechnologies-home-page)
+[https://arontolentino.github.io/cdi-technologies-home-page](https://arontolentino.github.io/cditechnologies-home-page)
 
 ## Wireframing
 
