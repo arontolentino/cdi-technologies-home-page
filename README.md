@@ -6,6 +6,16 @@ Taking into account the business requirements and stakeholders of CDI's website,
 
 No page builders this time! I'm going to use the HTML and vanilla CSS skills I gained from finishing the [first course](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/) from the $100 coding bootcamp curriculum and coding along the [Omnifood landing page](https://arontolentino.github.io/omnifood-landing-page).
 
+To see the live version of the project, click this link:
+
+[https://arontolentino.github.io/cditechnologies-home-page](https://arontolentino.github.io/cditechnologies-home-page)
+
 ## Wireframing
 
-I recreated a simplified version of the homepage using balsamiq and will develop the page section by section.
+I absolutely enjoy creating low-fidelity wireframes. It makes the whole development process much easier for everyone on the team. I make it a habit to create wireframes for any type of project I work on whether it be web pages, email templates, chatbot sequences, and a lot more!
+
+I recreated a simplified version of the homepage using balsamiq and develop the page section by section.
+
+<p align="center">
+  <img src="https://i.imgur.com/Da9i3CC.png" alt="High fidelity wireframe of the CDI homepage">
+</p>
